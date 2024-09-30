@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crear nueva contraseña</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/css/recuperarContraseña.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Crear nueva contraseña</h2>
+        <form action="#" method="POST">
+            <div class="inputContainer">
+                <input type="password" id="password" placeholder="Ingresa tu nueva contraseña" required>
+                <i class="fas fa-eye togglePassword" id="togglePassword1"
+                    onclick="togglePassword('password', 'togglePassword1')"></i>
+            </div>
+            <div class="inputContainer">
+                <input type="password" id="confirmPassword" placeholder="Confirma tu contraseña" required>
+                <i class="fas fa-eye togglePassword" id="togglePassword2"
+                    onclick="togglePassword('confirmPassword', 'togglePassword2')"></i>
+            </div>
+            <p class="errorMessage" id="errorMessage">Las contraseñas no coinciden</p>
+            <button type="submit" id="submitButton" disabled>Guardar contraseña</button>
+        </form>
+    </div>
+
+    <script src="/js/recuperarContraseña.js"></script>
+</body>
+
+</html>
