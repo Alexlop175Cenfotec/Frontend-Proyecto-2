@@ -1,0 +1,41 @@
+body {
+    background-image: url('BackgroundSalud-2.png'); /* Ruta de la imagen */
+    background-size: 5%;
+    background-position: center; /* Centra la imagen */
+    background-repeat: repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header {
+    background-color: rgb(30, 39, 76);
+}
+
+.btn{
+    background-color: rgb(30, 39, 76);
+    color: white;
+}
+
+.btn:hover {
+    background-color: #4c6fa2 !important;
+    border-color: #4c6fa2 !important;
+    color: white;
+}
+
+.input-group-append .boton {
+    background-color: rgb(43, 85, 255);
+    border-color: rgb(43, 85, 255);
+    color: white;
+}
+
+.input-group-append .boton:hover {
+    background-color: #2d63b3;
+}
+
+
